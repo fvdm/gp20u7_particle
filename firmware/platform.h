@@ -14,6 +14,7 @@ typedef Stream PlatformStream;
 // photon, electron, etc. For now just key off PLATFORM_ID but can be
 // expanded later if breaking hardware differences arise.
 #elif defined(SPARK)
+#define PARTICLE_PLATFORM
 #include "application.h"
 typedef Stream PlatformStream;
 

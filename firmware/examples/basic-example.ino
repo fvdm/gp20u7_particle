@@ -15,7 +15,7 @@
  */
 
 // include the library code:
-#include "gp20u7_particle.h"
+#include "gp20u7_particle/gp20u7_particle.h"
 
 // initialize the library with the serial port to which the device is
 // connected
